@@ -4,9 +4,9 @@ const Web3 = require("web3");
 const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
-  "juice bicycle seek common shield hello below angry source share exact mobile",
+  PHRASE,
   // remember to change this to your own phrase!
-  "https://rinkeby.infura.io/v3/15c1d32581894b88a92d8d9e519e476c"
+  RINKEBYAPI
   // remember to change this to your own endpoint!
 );
 const web3 = new Web3(provider);
