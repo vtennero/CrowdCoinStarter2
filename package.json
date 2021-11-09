@@ -28,7 +28,9 @@
   "devDependencies": {},
   "scripts": {
     "test": "mocha",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "",
   "license": "ISC"
