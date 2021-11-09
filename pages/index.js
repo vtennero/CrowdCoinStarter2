@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Card, Button } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css'
 import factory from '../ethereum/factory';
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 import { Link } from '../routes';
 
 class CampaignIndex extends Component {
